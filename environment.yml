@@ -1,0 +1,16 @@
+name: sentiment_env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - transformers
